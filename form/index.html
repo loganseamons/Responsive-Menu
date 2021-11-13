@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <meta name="description" content="order cool tshirts">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+  <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="./browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      document.querySelector(".menu-icon").addEventListener("click", () => {
+        document.querySelector(".main-menu").classList.toggle("menu-show");
+      });
+    });
+  </script>
+
+</head>
+
+
+
+<div class="main-menu">
+  <div class="menu-icon">
+    <svg viewbox="0 0 60 60">
+      <line x1="5%" y1="50%" x2="95%" y2="50%" />
+      <line x1="5%" y1="50%" x2="95%" y2="50%" />
+    </svg>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a id="About" href="about/">About</a></li>
+      <li><a id="Home">Home</a></li>
+      <li><a id="Form" href="form/">Form</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+<img id="formicon" src="../images/water.svg" alt="watery goodness" />
+
+<body id="formbody">
+
+  <div id="formtext">
+    <h1 class="formh1">Form</h1>
+
+    <p>Think of the penguins... Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates quo voluptate ab
+      architecto facere similique, libero eaque sequi, quisquam iusto quos officia autem impedit, consectetur nostrum.
+      Eaque quia illum aperiam?</p>
+  </div>
+
+  <div class="loader"></div>
+
+</body>
+
+</html>
